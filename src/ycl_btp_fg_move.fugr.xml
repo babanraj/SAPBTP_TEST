@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Test FG to move to BTP</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LYCL_BTP_FG_MOVETOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLYCL_BTP_FG_MOVE</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>YTEST_BTP_FUNCTIONMODULE_MOVE</FUNCNAME>
+     <SHORT_TEXT>Test FM to move to BTP</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_INPUT</PARAMETER>
+       <DEFAULT>&apos;Nothing&apos;</DEFAULT>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR40</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_OUTPUT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR40</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_INPUT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Character field of length 40</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_OUTPUT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Character field of length 40</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
