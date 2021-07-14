@@ -1,0 +1,12 @@
+projection;
+//strict; //Comment this line in to enable strict mode. The strict mode is prerequisite to be future proof regarding syntax and to be able to release your BO.
+
+define behavior for ZBRT_TRAVEL_APP_P_1 alias TravelProcessor//alias <alias_name>
+use etag
+{
+  use create;
+  use update;
+  use delete;
+
+  use action acceptTravel;
+}

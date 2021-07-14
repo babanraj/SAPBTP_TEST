@@ -1,0 +1,9 @@
+@EndUserText.label: 'Service Definition for ZC_Travel_M_XXX'
+define service ZBRT_TRAVEL_APP_SER_1 {
+  expose ZBRT_TRAVEL_APP_M_1 as TravelProcessor;
+  expose /DMO/I_Customer as Passenger;
+  expose /DMO/I_Agency as TravelAgency;
+  expose /DMO/I_Airport as Airport;
+  expose I_Currency as Currency;
+  expose I_Country as Country;
+}

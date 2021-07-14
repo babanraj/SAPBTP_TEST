@@ -1,0 +1,5 @@
+CLASS zbp_brt_travel_app_m_1 DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zbrt_travel_app_m_1.
+ENDCLASS.
+
+CLASS zbp_brt_travel_app_m_1 IMPLEMENTATION.
+ENDCLASS.
